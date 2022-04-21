@@ -40,7 +40,7 @@ public class User extends Person {
   }
 
   @Override
-  protected String summaryInformation() {
+  public String summaryInformation() {
     return "UserId: " + id + " Username: " + account.getUsername() + " Password: " + account.getPassword();
   }
 
